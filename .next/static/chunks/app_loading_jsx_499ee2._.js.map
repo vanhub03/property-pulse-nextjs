@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/VanhDao/Documents/property-pulse-nextjs/app/loading.jsx"],"sourcesContent":["\"use client\";\r\nimport ClipLoader from \"react-spinners/ClipLoader\";\r\n\r\nconst override = {\r\n  display: \"block\",\r\n  margin: \"100px auto\",\r\n};\r\n\r\nconst LoadingPage = () => {\r\n  return (\r\n    <ClipLoader\r\n      color=\"#3b82f6\"\r\n      cssOverride={override}\r\n      size={150}\r\n      aria-label=\"Loading Spinner\"\r\n    />\r\n  );\r\n};\r\n\r\nexport default LoadingPage;\r\n"],"names":[],"mappings":";;;;;;;;;AAAA;;;AAGA,MAAM,WAAW;IACf,SAAS;IACT,QAAQ;AACV;AAEA,MAAM,cAAc;IAClB,qBACE,6LAAC;QACC,OAAM;QACN,aAAa;QACb,MAAM;QACN,cAAW;;;;;;AAGjB;KATM;uCAWS"}},
+    {"offset": {"line": 42, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
